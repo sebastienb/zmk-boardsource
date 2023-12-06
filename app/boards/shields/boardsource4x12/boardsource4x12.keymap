@@ -75,14 +75,14 @@
 
         flock_layer {
             // ----------------------------------------------------------------------------------------------
-            // |out tog|BT_SEL 0|BT_SEL 1|BT_SEL 2|BT_SEL 3|BT_SEL 4|BT_PRV|BT_NXT|BT_CLR|     |     |      |
-            // |       |        |        |        |        |        |      |      |      |     |     |      |
-            // |       |        |        |        |        |        |      |      |      |     |     |      |
-            // |       |        |        |        |        |        |      |      |      |     |     |      |
+            // |out tog|BT_SEL 0|BT_SEL 1|BT_SEL 2|BT_SEL 3|BT_SEL 4|BT_PRV|BT_NXT|BT_CLR|     |     |       |
+            // |       |        |        |        |        |        |      |      |      |     |     | PRTSN |
+            // |       |        |        |        |        |        |      |      |      |     |     |       |
+            // |       |        |        |        |        |        |      |      |      |     |     |       |
 
             bindings = <
 &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &trans  &trans  &trans
-      &trans        &trans        &trans        &trans        &trans        &trans      &trans      &trans      &trans  &trans  &trans  &trans
+      &trans        &trans        &trans        &trans        &trans        &trans      &trans      &trans      &trans  &trans  &trans  &kp PSCRN
       &trans        &trans        &trans        &trans        &trans        &trans      &trans      &trans      &trans  &trans  &trans  &trans
       &trans        &trans        &trans        &trans        &trans        &trans      &trans      &trans      &trans  &trans  &trans  &trans
             >;
