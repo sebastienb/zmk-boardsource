@@ -6,3 +6,4 @@ url: https://www.boardsource.xyz/products/equals-60-kit
 requires: [pro_micro]
 features:
   - keys
+  - display
