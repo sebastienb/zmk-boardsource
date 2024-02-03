@@ -1,7 +1,7 @@
 if SHIELD_BOARDSOURCE_EQUALS60_DIY
 
 config ZMK_KEYBOARD_NAME
-    default "Equals 60"
+    default "Equals 60 LP"
 
 endif
 
