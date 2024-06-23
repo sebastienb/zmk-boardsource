@@ -41,12 +41,12 @@ ZMK is currently missing some features found in other popular firmware. This tab
 | Shell over BLE                                                                                                                     | 💡  |           |     |
 | Realtime Keymap Updating                                                                                                           | 💡  |           | ✅  |
 | AVR/8 Bit                                                                                                                          |     |           | ✅  |
-| [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/latest/boards/index.html)                                       | ✅  |           |     |
+| [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/3.5.0/boards/index.html)                                        | ✅  |           |     |
 
 [^2]: Tap-Dances are limited to single and double-tap on BlueMicro
 [^1]: OLEDs are currently proof of concept in ZMK.
 
-## Code Of Conduct
+## Code of Conduct
 
 Please note that this project is released with a
 [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
